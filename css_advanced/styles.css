@@ -18,8 +18,7 @@ header {
   background-position: center; /* Center the image */
   position: absolute;
 }
-header::after {
-}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -44,8 +43,7 @@ header ul li a {
   text-decoration: none;
   font-size: 1em;
 }
-body {
-}
+
 .first_section {
   text-align: center;
   position: relative;
@@ -55,8 +53,7 @@ body {
 main {
   position: relative;
 }
-.first_section .center {
-}
+
 .first_section .center h1 {
   color: white;
   font-size: 120px;
@@ -128,8 +125,6 @@ main {
   justify-content: center;
 }
 
-.another-one {
-}
 .another-two {
   margin-left: 50px;
 }
