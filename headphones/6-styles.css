@@ -1,0 +1,232 @@
+@font-face {
+  font-family: "Source-sans-pro";
+  src: url(/source-sans-pro/SourceSansPro-Regular.otf) format("truetype");
+}
+* {
+  margin: 0px;
+  font-size: 16px;
+  padding: 0px;
+  font-family: "Source-sans-pro";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo {
+  margin: 20px 25px;
+}
+
+.z {
+  display: flex;
+  vertical-align: center;
+}
+.headf {
+  color: white;
+  line-height: 1em;
+  font-size: 1.3em;
+  margin-top: 37px;
+}
+
+ul {
+  margin: 20px 0px;
+  display: flex;
+}
+header {
+  height: 800px;
+  width: 100%;
+  background-image: url(/headphones/images/headphones_hero_1.jpg);
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image */
+  position: absolute;
+}
+
+header ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin: 10px 20px;
+  font-size: 1.2em;
+}
+header ul li a:hover {
+  color: #ff6565;
+}
+
+.page1 {
+  color: white;
+  position: relative;
+
+  top: 90%;
+  left: -50%;
+  transform: translate(50%, 90%);
+  text-align: center;
+}
+
+.section1 .btn {
+  margin-top: 40px;
+  border: none;
+  margin-bottom: 20px;
+  background: #ff6565;
+  padding: 15px;
+  color: #fff;
+  border-radius: 60px;
+  align-items: center;
+
+  font-weight: bold;
+}
+
+.section1 h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.white-space {
+  display: flex;
+  margin-top: 500px;
+  margin-left: 0px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 70px;
+  justify-content: center;
+}
+.items div {
+  padding: 0px 20px;
+}
+.back {
+  background-image: url(/headphones/images/headphones_hero_2.jpg);
+  height: 500px;
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center;
+  margin-bottom: 50px;
+}
+.back-p {
+  color: white;
+  padding-top: 80px;
+  line-height: 1.2em;
+  font-weight: lighter;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.pentagon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pentagon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #4caf50;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  animation: bounce 2s infinite;
+}
+
+.pentagon .number {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.pentagon p {
+  margin: 5px 0 0;
+}
+
+/* Bouncing Animation */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.form-action {
+  display: flex;
+  justify-content: center;
+}
+
+.form-action form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.form-action form input {
+  margin: 20px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  height: 20px;
+}
+
+.form-action form input::placeholder {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.form-action form button {
+  margin-top: 40px;
+  border: none;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  background: #ff6565;
+  padding: 15px;
+  color: #fff;
+  border-radius: 60px;
+  align-items: center;
+  width: 200px;
+
+  font-weight: bold;
+}
+footer {
+  height: 250px;
+  background-color: #071629;
+}
+footer section div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+footer section div i {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 18px;
+  margin: 0 15px;
+}
+
+.alignment {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-top: 90px;
+  padding-top: 100px;
+}
+.alignment img {
+  margin-left: 90px;
+}
